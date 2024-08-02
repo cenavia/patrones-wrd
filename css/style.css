@@ -34,3 +34,20 @@ html {
 .c5 {
   background-color: #dfe1e5;
 }
+
+/*Implementando mi primera media query
+ consideraciones: estas reglas se implementan al final de 
+ todo el codigo css inicial para respetar el flujo normal de la 
+ cascada.
+*/
+
+/* Regla de media query para pantallas de al menos 600px de ancho */
+@media (min-width: 600px) {
+  /* Selector múltiple para las clases c2, c3 y c4 */
+  .c2,
+  .c3,
+  .c4 {
+    /* Establece el ancho de los elementos al 50% del contenedor padre */
+    width: 50%;
+  }
+}
