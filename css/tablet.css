@@ -1,0 +1,7 @@
+/* Selector múltiple para las clases c2, c3 y c4 */
+.c2,
+.c3,
+.c4 {
+  /* Establece el ancho de los elementos al 50% del contenedor padre */
+  width: 50%;
+}
