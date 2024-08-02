@@ -54,6 +54,15 @@ html {
 
 /* mi 2da Regla de media query para pantallas de al menos 800px de ancho */
 @media (min-width: 800px) {
+  /* Estilo para limitar el crecimiento y centrar del contenedor principal */
+  .container {
+    /* Ancho fijo del contenedor */
+    width: 800px;
+
+    /* Centrado horizontal automático */
+    margin-left: auto;
+    margin-right: auto;
+  }
   /* Clase c1 */
   .c1 {
     /* Establece el ancho al 60% del contenedor padre */
