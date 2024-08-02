@@ -51,3 +51,31 @@ html {
     width: 50%;
   }
 }
+
+/* mi 2da Regla de media query para pantallas de al menos 800px de ancho */
+@media (min-width: 800px) {
+  /* Clase c1 */
+  .c1 {
+    /* Establece el ancho al 60% del contenedor padre */
+    width: 60%;
+  }
+
+  /* Clase c2 */
+  .c2 {
+    /* Establece el ancho al 40% del contenedor padre */
+    width: 40%;
+  }
+
+  /* Clases c3 y c4 */
+  .c3,
+  .c4 {
+    /* Establece el ancho al 33% del contenedor padre */
+    width: 33%;
+  }
+
+  /* Clase c5 */
+  .c5 {
+    /* Establece el ancho al 34% del contenedor padre */
+    width: 34%;
+  }
+}
